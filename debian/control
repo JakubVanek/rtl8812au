@@ -1,0 +1,22 @@
+Source: rtl8812au
+Section: kernel
+Priority: optional
+Maintainer: Jakub Vaněk <linuxtardis@gmail.com>
+Build-Depends: debhelper (>= 9), dkms, dh-modaliases
+Standards-Version: 4.3.0.3
+Homepage: http://www.realtek.com.tw/
+Vcs-Git: https://github.com/JakubVanek/rtl8812au.git
+Vcs-Browser: https://github.com/JakubVanek/rtl8812au
+
+Package: rtl8812au-dkms
+Architecture: all
+Depends: ${misc:Depends}, dkms, linux-libc-dev, libc6-dev
+XB-Modaliases: ${modaliases}
+Description: dkms source for the r8812au network driver for RPi
+ rtl8812au is the Linux device driver released for the RealTek RTL8812AU WiFi
+ controllers with USB interface.
+ .
+ This package provides the dkms source code for the rtl8812au kernel module.
+ Kernel source or headers are required to compile these modules.
+ This package is intended only for Raspberry Pi and may not work on other
+ platforms.

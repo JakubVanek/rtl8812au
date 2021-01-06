@@ -1,0 +1,5 @@
+rtl8812au (5.9.3.2.37279.20201012-1) buster; urgency=medium
+
+  * Initial release for Raspberry Pi
+
+ -- Jakub Vaněk <linuxtardis@gmail.com>  Wed, 06 Jan 2021 22:39:30 +0100
